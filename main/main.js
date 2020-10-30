@@ -40,7 +40,7 @@ module.exports = function printInventory(inputs) {
                     findItem = {};
                     findItem.Total = 0;
                     findItem.UnitPrice = current.Price;
-                    findItem.Unit = current.Unit === 'bottle' ? 'bottles' : '';
+                    findItem.Unit = current.Unit === 'bottle' ? 'bottles' : 'a';
                     findItem.Quantity = 0;
                     groupInputs.push(findItem);
                 }
